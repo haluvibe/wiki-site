@@ -1,0 +1,19 @@
+{
+  "name": "wiki-site",
+  "version": "1.0.0",
+  "description": "Wiki.js Website",
+  "main": "index.js",
+  "repository": "https://github.com/requarks/wiki-site.git",
+  "author": "Nicolas Giard <github@ngpixel.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
+  }
+}
