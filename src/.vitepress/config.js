@@ -13,7 +13,7 @@ export default {
     logo: 'https://static.requarks.io/logo/wikijs-butterfly.svg',
     nav: [
       { text: 'Docs', link: '/docs/', activeMatch: '/docs/' },
-      { text: 'News', link: '/news/', activeMatch: '/news/' },
+      { text: 'News', link: 'https://blog.js.wiki/' },
       {
         text: 'Sponsor',
         activeMatch: '/about/',
@@ -157,5 +157,7 @@ export default {
       message: 'Released under the AGPLv3 License.',
       copyright: 'Copyright © 2016-present requarks.io'
     }
-  }
+  },
+
+  ignoreDeadLinks: true
 }
