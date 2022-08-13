@@ -100,6 +100,7 @@ export default {
         {
           text: 'Administration',
           collapsible: true,
+          collapsed: true,
           items: [
             { text: 'Site Management', link: '/docs/admin/sites' },
             { text: 'Analytics', link: '/docs/admin/analytics' },
@@ -117,6 +118,7 @@ export default {
         {
           text: 'System',
           collapsible: true,
+          collapsed: true,
           items: [
             { text: 'Auditing', link: '/docs/admin/auditing' },
             { text: 'Extensions', link: '/docs/admin/extensions' },

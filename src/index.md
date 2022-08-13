@@ -1,4 +1,6 @@
 ---
+title: Wiki.js
+titleTemplate: false
 layout: home
 hero:
   name: Wiki.js

@@ -27,7 +27,7 @@ An alternate method of [sideloading files](/docs/) is also available if your env
 
 ## Domain
 
-Wiki.js **requires** a dedicated sub-domain / domain *(e.g. wiki.example.com)*.
+Wiki.js **requires** a dedicated sub-domain / domain *(e.g. `wiki.example.com`)*.
 
 ::: warning
 You cannot map Wiki.js to a subfolder.
