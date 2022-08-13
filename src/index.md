@@ -7,7 +7,7 @@ hero:
   text: Next Generation Open Source Wiki
   tagline: Make documentation a joy to write using Wiki.js's beautiful and intuitive interface!
   image:
-    src: https://static.requarks.io/logo/wikijs-butterfly.svg
+    src: /logo.svg
     alt: Wiki.js
   actions:
     - theme: brand
