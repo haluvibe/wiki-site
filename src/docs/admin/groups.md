@@ -20,11 +20,13 @@ TODO
 
 ## Rules
 
-A rule consists of a set of actions a user can perform on a specific set of pages.
+A rule consists of a set of actions a user can perform on a specific set of pages. Rules can restrict access to certain paths, on specific sites and locales.
 
 TODO
 
 ## Permissions
+
+A permission allows a user to perform a specific set of actions related to the administration of the wiki. Contrary to **Rules** which govern content, **Permissions** are strictly for management rights.
 
 | Permission      | Description                                                     | Notes                                                          |
 |-----------------|-----------------------------------------------------------------|----------------------------------------------------------------|
@@ -38,9 +40,15 @@ TODO
 
 ## Users
 
+Users are managed via the **Administration Area**, under the **Users** section.
+
 ### Create New User
 
+TODO
+
 ### Edit User
+
+TODO
 
 ### Delete User
 
