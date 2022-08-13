@@ -144,7 +144,7 @@ export default {
     },
 
     editLink: {
-      pattern: 'https://github.com/requarks/wiki/edit/main/src/:path',
+      pattern: 'https://github.com/requarks/wiki-site/edit/main/src/:path',
       text: 'Suggest changes to this page'
     },
 
