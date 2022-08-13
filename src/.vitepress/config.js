@@ -157,7 +157,7 @@ export default {
 
     footer: {
       message: 'Released under the AGPLv3 License.',
-      copyright: 'Copyright © 2016-present requarks.io'
+      copyright: `Copyright © 2016-${new Date().getFullYear()} Nicolas Giard & Wiki.js Contributors`
     }
   },
 
