@@ -4,7 +4,7 @@ titleTemplate: false
 layout: home
 hero:
   name: Wiki.js
-  text: Next Generation Open Source Wiki Software
+  text: Next Generation Open Source Wiki
   tagline: Make documentation a joy to write using Wiki.js's beautiful and intuitive interface!
   image:
     src: https://static.requarks.io/logo/wikijs-butterfly.svg
