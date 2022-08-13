@@ -1,9 +1,12 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
   lang: 'en-US',
   title: 'Wiki.js',
   description: 'The most powerful and extensible open source Wiki software.',
 
   lastUpdated: true,
+  ignoreDeadLinks: true,
 
   markdown: {
     lineNumbers: true
@@ -75,7 +78,15 @@ export default {
           {
             text: 'Contributing',
             link: 'https://github.com/requarks/wiki/blob/main/.github/CONTRIBUTING.md'
-          }
+          },
+          {
+            text: '2.x Docs',
+            link: 'https://docs.requarks.io'
+          },
+          {
+            text: '1.x Docs',
+            link: 'https://docs-legacy.requarks.io/wiki'
+          },
         ],
       },
     ],
@@ -104,7 +115,6 @@ export default {
         {
           text: 'Administration',
           collapsible: true,
-          collapsed: true,
           items: [
             { text: 'Site Management', link: '/docs/admin/sites' },
             { text: 'Analytics', link: '/docs/admin/analytics' },
@@ -124,12 +134,12 @@ export default {
           collapsible: true,
           collapsed: true,
           items: [
-            { text: 'Auditing', link: '/docs/admin/auditing' },
-            { text: 'Extensions', link: '/docs/admin/extensions' },
-            { text: 'Mail', link: '/docs/admin/mail' },
-            { text: 'Security', link: '/docs/admin/security' },
-            { text: 'Utilities', link: '/docs/admin/utilities' },
-            { text: 'Webhooks', link: '/docs/admin/webhooks' },
+            { text: 'Auditing', link: '/docs/system/auditing' },
+            { text: 'Extensions', link: '/docs/system/extensions' },
+            { text: 'Mail', link: '/docs/system/mail' },
+            { text: 'Security', link: '/docs/system/security' },
+            { text: 'Utilities', link: '/docs/system/utilities' },
+            { text: 'Webhooks', link: '/docs/system/webhooks' },
           ]
         },
         {
@@ -144,7 +154,17 @@ export default {
           ]
         }
       ],
-      '/about/': []
+      '/about/': [
+        {
+          items: [
+            { text: 'Become a Sponsor', link: '/about/sponsor' },
+            { text: 'Backers', link: '/about/backers' },
+            { text: 'Developers', link: '/about/developers' },
+            { text: 'Translators', link: '/about/translators' },
+            { text: 'Special Thanks', link: '/about/special-thanks' }
+          ]
+        }
+      ]
     },
 
     editLink: {
@@ -163,7 +183,5 @@ export default {
       message: 'Released under the AGPLv3 License.',
       copyright: `Copyright © 2016-${new Date().getFullYear()} Nicolas Giard & Wiki.js Contributors`
     }
-  },
-
-  ignoreDeadLinks: true
-}
+  }
+})

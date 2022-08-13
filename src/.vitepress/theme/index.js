@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import './site.css'
+import './site.scss'
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {

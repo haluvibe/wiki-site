@@ -1,0 +1,36 @@
+:root {
+  --vp-c-brand: #42a5f5;
+  --vp-c-brand-dark: #42a5f5;
+  --vp-home-hero-image-background-image: linear-gradient( -45deg, #bd34fe 50%, #47caff 50% );
+  --vp-home-hero-image-filter: blur(72px);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #bd34fe 10%, #47caff );
+}
+
+.dark {
+  --vp-c-bg: #22252B;
+  --vp-c-bg-alt: #1B1D22;
+  --vp-c-bg-soft: #292C33;
+  --vp-c-bg-mute: #343841;
+}
+
+kbd {
+  background: rgba(0,0,0,.6);
+  color: #fff;
+  padding: .2rem .4rem;
+  border-radius: 3px;
+  font-size: 85%;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+// VPNav.vue
+
+@media (min-width: 960px) {
+  .dark .VPNav.no-sidebar {
+    background: rgba(#1B1D22, 0.7) !important;
+  }
+  .dark .VPNavBar.has-sidebar .content {
+    background: rgba(#22252B, 0.7) !important;
+  }
+}
