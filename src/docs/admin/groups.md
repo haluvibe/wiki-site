@@ -1,4 +1,4 @@
-# Groups
+# Users, Groups & Permissions
 
 While a good wiki is one where anyone can contribute new content, it's always a good idea to restrict certain sections and specific actions to a list of selected users.
 
@@ -26,8 +26,22 @@ TODO
 
 ## Permissions
 
-TODO
+| Permission      | Description                                                     | Notes                                                          |
+|-----------------|-----------------------------------------------------------------|----------------------------------------------------------------|
+| `write:users`   | Can create or authorize new users, but not modify existing ones | Cannot assign to **Administrators** group.                     |
+| `manage:users`  | Can edit existing users.                                        | Cannot modify users from **Administrators** group.             |
+| `write:groups`  | Can create and edit new groups and assign **Rules**.            | Cannot set **Permissions**.                                    |
+| `manage:groups` | Same as `write:groups` but can set **Permissions**.             | Cannot set the `manage:system` permission.                     |
+| `manage:theme`  | Can modify theme settings.                                      |                                                                |
+| `manage:system` | Can manage and access everything.                               |                                                                |
+| `manage:api`    | Can generate and revoke API keys.                               | Cannot generate keys with the **Administrators** group rights. |
 
 ## Users
+
+### Create New User
+
+### Edit User
+
+### Delete User
 
 TODO
