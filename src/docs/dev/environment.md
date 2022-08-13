@@ -35,8 +35,8 @@ It's highly recommended to use [WSL2](https://docs.microsoft.com/en-us/windows/w
     ```bash
       yarn dev
     ```
-9. Wait for the initialization to complete. You'll be prompted to load **http://localhost:3000/** when ready.
-9. Browse to **http://localhost:3000/** _(replace localhost with the hostname of your machine if applicable)_.
+9. Wait for the initialization to complete. You'll be prompted to load `http://localhost:3000/` when ready.
+9. Browse to `http://localhost:3000/` *(replace localhost with the hostname of your machine if applicable)*.
 10. Complete the setup wizard to finish the installation.
 
 ## Stopping the project
