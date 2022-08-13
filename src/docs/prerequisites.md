@@ -21,9 +21,9 @@ At least 1 GB of storage dedicated to Wiki.js is recommended from the start.
 :::
 
 ### Internet Access
-Wiki.js will automatically check for new versions, fetch language updates, etc. from time to time. You can [read more](/install/requirements/internet) about what data is downloaded.
+Wiki.js will automatically check for new versions, fetch language updates, etc. from time to time. You can [read more](/docs/) about what data is downloaded.
 
-An alternate method of [sideloading files](/install/sideload) is also available if your environment is cut from the internet.
+An alternate method of [sideloading files](/docs/) is also available if your environment is cut from the internet.
 
 ## Domain
 
