@@ -8,12 +8,12 @@ Select the platform Wiki.js will be installed on:
 
 ### Containers
 
-- [Docker](install/docker)
-- [Kubernetes](install/kubernetes)
-
 ::: tip Recommended
 Using containers is prefered to running Wiki.js natively on the OS. It allows for easier upgrades and includes all necessary dependencies.
 :::
+
+- [Docker](install/docker)
+- [Kubernetes](install/kubernetes)
 
 ### Native
 
