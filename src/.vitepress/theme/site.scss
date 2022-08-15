@@ -12,6 +12,15 @@
   --vp-c-bg-alt: #1B1D22;
   --vp-c-bg-soft: #292C33;
   --vp-c-bg-mute: #343841;
+
+  .vp-doc {
+    strong {
+      color: #b0c4de;
+    }
+    .custom-block strong {
+      color: currentColor;
+    }
+  }
 }
 
 kbd {

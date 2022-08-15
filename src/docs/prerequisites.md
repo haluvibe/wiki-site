@@ -66,7 +66,7 @@ Odd-numbered versions (e.g. `19.x`) are not officially supported and not recomme
 **Skip this requirement!** You don't need to install Node.js on your machine! It's included in the Docker image already.
 :::
 
-## **Web Server**
+## Web Server
 
 Wiki.js doesn't need any actual web server (such as nginx or Apache). However, you might need to put a reverse proxy in front of Wiki.js if you require advanced network / DNS configuration.
 

@@ -1,5 +1,7 @@
 # Site Management
 
+> From the **Administration Area**, click on the **Sites** section from the sidebar navigation.
+
 Multiple wiki sites can be hosted on the same Wiki.js instance. This allows you to clearly separate content belonging to different teams or products.
 
 The following resources are tied to a site:
@@ -20,6 +22,13 @@ Users reside at the global level and are **NOT** tied to a site. They can be all
 
 ## Create a Site
 
+Click on the **New Site** button. A dialog to create a new site will appear.
+
+DIALOG_SCREEN_IMAGE
+
 ## Modify a Site
 
+
+
 ## Delete a Site
+
