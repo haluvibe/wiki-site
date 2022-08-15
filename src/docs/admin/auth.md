@@ -1,10 +1,10 @@
 # Authentication
 
-Authentication modules allows for secure and simple login.
+Authentication modules allows for secure and simple login for users.
 
-From the Administration Area, you can enable authentication strategies that work best for you. Multiple strategies can be enabled at the same time. For example, you could allow your users to login using their Google, Slack or GitHub account.
+From the **Administration Area**, you can enable the authentication strategies that work best for you. Multiple strategies can be enabled at the same time. For example, you could allow your users to login using their Google, Slack or GitHub account.
 
-Note that the default **Local** strategy cannot be disabled as it is required for root administrator login. It can however be hidden by default.
+Note that the default **Local Database** strategy cannot be disabled as it is required for root administrator login. It can however be hidden by default.
 
 ## Modules
 
