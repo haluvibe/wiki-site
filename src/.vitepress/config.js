@@ -122,7 +122,7 @@ export default defineConfig({
             { text: 'Authentication', link: '/docs/admin/auth' },
             { text: 'Comments', link: '/docs/admin/comments' },
             { text: 'Editors', link: '/docs/admin/editors' },
-            { text: 'Localization', link: '/docs/admin/localization' },
+            { text: 'Localisation', link: '/docs/admin/localisation' },
             { text: 'Navigation', link: '/docs/admin/nav' },
             { text: 'Storage', link: '/docs/admin/storage' },
             { text: 'Theme', link: '/docs/admin/theme' },
