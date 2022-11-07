@@ -66,7 +66,7 @@ The [Node.js](https://nodejs.org/) runtime is required. The following versions a
 ::: warning Unsupported Versions
 Wiki.js will **NOT** run on older versions such as 16.x, 14.x or any version below **18.x**!
 
-Future LTS versions (e.g. `20.x`) will be supported once they reaches active LTS status.
+Future LTS versions (e.g. `20.x`) will be supported once they reach active LTS status.
 Odd-numbered versions (e.g. `19.x`) are not officially supported and not recommended.
 :::
 
