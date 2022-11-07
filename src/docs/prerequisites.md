@@ -55,6 +55,7 @@ The following PostgreSQL extensions must be available. Note that these **are alr
 
 - ltree
 - pgcrypto
+- pg_trgm
 
 ## Node.js
 
