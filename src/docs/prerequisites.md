@@ -49,6 +49,13 @@ You're expected to have installed a PostgreSQL database instance already *(eithe
 The database user must have the right to create schemas in the database.
 :::
 
+### Required Extensions
+
+The following PostgreSQL extensions must be available. Note that these **are already included with standard PostgreSQL installations** and are only listed in case you're using a custom build of PostgreSQL.
+
+- ltree
+- pgcrypto
+
 ## Node.js
 
 The [Node.js](https://nodejs.org/) runtime is required. The following versions are supported:
