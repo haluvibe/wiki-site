@@ -132,7 +132,7 @@ export default defineConfig({
         {
           text: 'System',
           collapsible: true,
-          collapsed: true,
+          // collapsed: true,
           items: [
             { text: 'Auditing', link: '/docs/system/auditing' },
             { text: 'Extensions', link: '/docs/system/extensions' },
@@ -145,7 +145,7 @@ export default defineConfig({
         {
           text: 'Developers',
           collapsible: true,
-          collapsed: true,
+          // collapsed: true,
           items: [
             { text: 'Environment', link: '/docs/dev/environment' },
             { text: 'GraphQL API', link: '/docs/dev/api' },

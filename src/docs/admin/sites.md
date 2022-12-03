@@ -24,7 +24,7 @@ Users reside at the global level and are **NOT** tied to a site. They can be all
 
 Click on the **New Site** button. A dialog to create a new site will appear.
 
-DIALOG_SCREEN_IMAGE
+![New Site Dialog](/images/docs-admin-sites-new.png)
 
 ## Modify a Site
 

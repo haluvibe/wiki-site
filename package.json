@@ -8,12 +8,12 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "sass": "^1.54.4",
-    "vitepress": "^1.0.0-alpha.4",
-    "vue": "^3.2.37"
+    "sass": "1.56.1",
+    "vitepress": "1.0.0-alpha.29",
+    "vue": "3.2.45"
   },
   "scripts": {
-    "dev": "vitepress dev src",
+    "dev": "vitepress dev src --port 3002",
     "build": "vitepress build src",
     "serve": "vitepress serve src"
   }
