@@ -33,6 +33,13 @@ kbd {
   font-family: monospace;
 }
 
+img.rounded {
+  border-radius: 7px;
+}
+img.shadow {
+  box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
 // VPNav.vue
 
 @media (min-width: 960px) {
